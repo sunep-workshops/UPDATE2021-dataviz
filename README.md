@@ -1,4 +1,4 @@
-![Sexy Top Picture](/img/Top.png "Sexy Top Picture")
+![Sexy Top Picture](/img/Top.jpg "Sexy Top Picture")
 # Data Driven AudioVisuals
 ## Description
 In October 2019 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*.
