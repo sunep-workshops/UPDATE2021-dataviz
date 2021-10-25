@@ -14,7 +14,7 @@ The work will be based on [vvvv-beta](https://vvvv.org/). Prior experience with 
 ## Who am I?
 Sune Petersen (He/Him) a a digital artist creating audiovisual performances and installations.
 
-Selected highlights:
+## Selected highlights:
 
 
 - 2018 Deuterium AV performance, Cairotronica. Cimatheque, Cairo, Egypt
