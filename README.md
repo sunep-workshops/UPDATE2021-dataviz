@@ -1,13 +1,21 @@
 # Data Driven AudioVisuals
 ## Description
-In October 2019 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*. It resulted in a more than 2 year long treatment with daily chemotherapy most of the time. Throughout this period lots of test have been taken currently 655 tests, mainly blood tests.
-In Denmark everyone have access to all your own data collected when using the health care system, soon the idea of using this data to drive the narrative of an AV-installation/film was born.
-In this workshop we will explore the possibilities in using data do create dynamic audiovisuals. we will use either the blood data or other data that the participants find interesting.
+In October 2019 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*.
+
+This resulted in a more than 2 year long treatment with daily chemotherapy most of the time. Determinede to not let all this litteral suffering have not creative outcome, I needed to find a way to use this for something good so it was not all suffering and nausea.
+I am now cured, but more test are being taken at lower frequency for some years to come in order to monitor me.
+
+In Denmark everyone have access to all their own data collected in the health care system. While seeing these data, it not take long for an idea of using this data to drive the narrative of an AV-installation/film to arrive and manifest itself.
+
+In this workshop we will explore the possibilities of using data do create dynamic audiovisuals. We will use either the blood data or other data that the participants find interesting. 
+
 The work will be based on [vvvv-beta](https://vvvv.org/). Prior experience with vvvv will be nice but is not necessary.
 ## What will you learn?
 - How to use data from various data sources to create visuals and sound
 ## Requirements
 - Windows PC
+    - the good student will have installed the latest [vvvv beta](https://vvvv.org/downloads), including the addonpack.
+    - you will also need the [DX11 pack](https://vvvv.org/contribution/directx11-nodes) and the [Vaudio pack](https://vvvv.org/contribution/vvvv.audio-pack-alpha)
 - 3 button mouse (recommended)
 - headphones if you want to work with sound
 - If you have some data you would like to explore, bring it to the workshop.
