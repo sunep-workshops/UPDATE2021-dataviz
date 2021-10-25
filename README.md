@@ -1,3 +1,4 @@
+![Sexy Top Picture](/img/Top.png "Sexy Top Picture")
 # Data Driven AudioVisuals
 ## Description
 In October 2019 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*.
@@ -5,6 +6,7 @@ In October 2019 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*.
 This resulted in a more than 2 year long treatment with daily chemotherapy most of the time. Determinede to not let all this litteral suffering have not creative outcome, I needed to find a way to use this for something good so it was not all suffering and nausea.
 I am now cured, but more test are being taken at lower frequency for some years to come in order to monitor me.
 
+![Haemoglobin levels](/img/Hæmoglobin.jpg "Haemoglobin levels")
 In Denmark everyone have access to all their own data collected in the health care system. While seeing these data, it not take long for an idea of using this data to drive the narrative of an AV-installation/film to arrive and manifest itself.
 
 In this workshop we will explore the possibilities of using data do create dynamic audiovisuals. We will use either the blood data or other data that the participants find interesting. 
