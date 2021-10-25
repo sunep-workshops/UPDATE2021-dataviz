@@ -1,0 +1,11 @@
+*~.xml
+Ableton/HattlerizerTemplateProject/Backup
+Ableton/NonTemplateProjects/*
+Ableton/User Library/Samples/*
+vvvv/
+Tests/
+vvvv_50beta36_x64/
+*.zip
+AbletonTmp*
+ffmpeg-release-essentials.zip
+Ableton/User Library/Desktop.ini
