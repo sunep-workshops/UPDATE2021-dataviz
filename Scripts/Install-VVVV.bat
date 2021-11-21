@@ -1,0 +1,1 @@
+Powershell.exe -executionpolicy remotesigned -File  Install-VVVV.ps1
