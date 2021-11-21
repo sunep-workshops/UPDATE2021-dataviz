@@ -3,16 +3,23 @@
 ## Description
 In October 2019 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*.
 
-This resulted in a more than 2 year long treatment with daily chemotherapy most of the time. Determinede to not let all this litteral suffering have not creative outcome, I needed to find a way to use this for something good so it was not all suffering and nausea.
-I am now cured, but more test are being taken at lower frequency for some years to come in order to monitor me.
+This resulted in a more than 2 year long treatment with daily chemotherapy most of the time. Determined to not let all this suffering have no creative outcome, I needed to find a way to use this for something good so it was not all suffering and nausea.
+I am now cured, but more tests are being taken at lower frequency for some years to come to monitor me.
 
-![Haemoglobin levels](/img/Hæmoglobin.png "Haemoglobin levels")
-In Denmark everyone have access to all their own data collected in the health care system. While seeing these data, it not take long for an idea of using this data to drive the narrative of an AV-installation/film to arrive and manifest itself.
+![Haemoglobin levels](/img/Hæmoglobin.png "Haemoglobin levels from sundhed.dk")
+In Denmark everyone have access to all their own data collected in the health care system. While seeing these data, it did not take long for an idea of using this data to drive the narrative of an AV-installation/film to manifest itself.
 
-In this workshop we will explore the possibilities of using data do create dynamic audiovisuals. We will use either the blood data or other data that the participants find interesting. 
+In this workshop we will explore the possibilities of using data do create dynamic audiovisuals.
+We will use either the blood data I provide or other data that the participants find interesting.
+
+This workshop is not a "traditional" datavisualization workshop. In my work I use data as basis for abstract artistic expression.
 
 The work will be based on [vvvv-beta](https://vvvv.org/). Prior experience with vvvv will be nice but is not necessary.
+
+This workshop will also be an instroduction to vvvv_beta.
+
 ## What will you learn?
+- Basic skills in vvvv
 - How to use data from various data sources to create visuals and sound
 ## Requirements
 - Windows PC
