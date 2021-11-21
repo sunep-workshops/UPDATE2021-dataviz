@@ -16,9 +16,10 @@ The work will be based on [vvvv-beta](https://vvvv.org/). Prior experience with 
 - How to use data from various data sources to create visuals and sound
 ## Requirements
 - Windows PC
-    - the good student will have installed the latest [vvvv beta](https://vvvv.org/downloads), including the addonpack.
+    - The good student will have installed the latest [vvvv beta](https://vvvv.org/downloads), including the addonpack.
     - you will also need the [DX11 pack](https://vvvv.org/contribution/directx11-nodes) and the [Vaudio pack](https://vvvv.org/contribution/vvvv.audio-pack-alpha)
-- 3 button mouse (recommended)
+    - The slightly more laid back students will run Install-VVVV.bat from the Scripts folder and everything needed will be installed automagically
+- 3 button mouse (recommended) - Use space Space + Right Click for middle click if you for some reason don't have a 3 button mouse
 - headphones if you want to work with sound
 - If you have some data you would like to explore, bring it to the workshop.
 ## Who am I?
