@@ -1,0 +1,69 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
+   <PATCH nodename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p" systemname="Remember" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p">
+   <BOUNDS type="Window" left="9480" top="1245" width="11490" height="5280">
+   </BOUNDS>
+   <PACK Name="dx11" Version="1.3.1">
+   </PACK>
+   <PACK Name="addonpack" Version="42.0.0">
+   </PACK>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="0">
+   <BOUNDS type="Node" left="1170" top="1410" width="7590" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1170" top="1410" width="7590" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="C:\Users\sunep\Dropbox\NODE20\AudibleDataWorkshop\node20_audibledata\sunep_examples\Daugava">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="URL">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="1">
+   <BOUNDS type="Node" left="675" top="615" width="2550" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="675" top="615" width="7950" height="810">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Daugava water level data as sound|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="23">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="2">
+   <BOUNDS type="Node" left="1095" top="3390" width="5175" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1095" top="3390" width="5175" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="C:\Users\sunep\Dropbox\___Work\2020\CO2-to-texture\CO2ToAudio">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Directory">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="3">
+   <BOUNDS type="Node" left="615" top="2475" width="2550" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="615" top="2475" width="9870" height="915">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|CO2 the past 800,000 years as Techno|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="23">
+   </PIN>
+   </NODE>
+   </PATCH>
