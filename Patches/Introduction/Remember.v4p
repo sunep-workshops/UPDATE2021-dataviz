@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p" systemname="Remember" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p">
-   <BOUNDS type="Window" left="15885" top="2220" width="12915" height="11910">
+   <PATCH nodename="D:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p" systemname="Remember" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p">
+   <BOUNDS type="Window" left="13650" top="1110" width="12915" height="11910">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -11,7 +11,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1515" top="2205" width="7590" height="270">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="C:\Users\sunep\Dropbox\NODE20\AudibleDataWorkshop\node20_audibledata\sunep_examples\Daugava">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="D:\Users\sunep\Dropbox\NODE20\AudibleDataWorkshop\node20_audibledata\sunep_examples\Daugava">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -41,7 +41,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1470" top="3825" width="5175" height="270">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="C:\Users\sunep\Dropbox\___Work\2020\CO2-to-texture\CO2ToAudio">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="D:\Users\sunep\Dropbox\___Work\2020\CO2-to-texture\CO2ToAudio">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
