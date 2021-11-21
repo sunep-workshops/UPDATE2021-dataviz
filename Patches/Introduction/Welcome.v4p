@@ -209,7 +209,7 @@
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
-   <PIN pinname="Intersperse" slicecount="1" values="Space" visible="1">
+   <PIN pinname="Intersperse" slicecount="1" visible="1" values="Space">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>

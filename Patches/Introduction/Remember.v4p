@@ -1,15 +1,15 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
    <PATCH nodename="D:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p" systemname="Remember" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p">
-   <BOUNDS type="Window" left="13650" top="1110" width="12915" height="11910">
+   <BOUNDS type="Window" left="9510" top="2985" width="10650" height="3540">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
    <PACK Name="addonpack" Version="42.0.0">
    </PACK>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="0">
-   <BOUNDS type="Node" left="1515" top="2205" width="7590" height="270">
+   <BOUNDS type="Node" left="1260" top="5280" width="7590" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1515" top="2205" width="7590" height="270">
+   <BOUNDS type="Box" left="1260" top="5280" width="7590" height="270">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="D:\Users\sunep\Dropbox\NODE20\AudibleDataWorkshop\node20_audibledata\sunep_examples\Daugava">
    </PIN>
@@ -21,9 +21,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="1">
-   <BOUNDS type="Node" left="1020" top="1410" width="2550" height="270">
+   <BOUNDS type="Node" left="765" top="4485" width="2550" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1020" top="1410" width="7950" height="810">
+   <BOUNDS type="Box" left="765" top="4485" width="7950" height="810">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|Daugava water level data as sound|">
    </PIN>
@@ -37,9 +37,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="2">
-   <BOUNDS type="Node" left="1470" top="3825" width="5175" height="270">
+   <BOUNDS type="Node" left="1215" top="6900" width="5175" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1470" top="3825" width="5175" height="270">
+   <BOUNDS type="Box" left="1215" top="6900" width="5175" height="270">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="D:\Users\sunep\Dropbox\___Work\2020\CO2-to-texture\CO2ToAudio">
    </PIN>
@@ -51,9 +51,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="3">
-   <BOUNDS type="Node" left="990" top="2910" width="2550" height="270">
+   <BOUNDS type="Node" left="735" top="5985" width="2550" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="990" top="2910" width="9870" height="915">
+   <BOUNDS type="Box" left="735" top="5985" width="9870" height="915">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|CO2 the past 800,000 years as Techno|">
    </PIN>
@@ -67,9 +67,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="5">
-   <BOUNDS type="Node" left="1155" top="4440" width="2550" height="270">
+   <BOUNDS type="Node" left="1020" top="1095" width="2550" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1155" top="4440" width="2970" height="705">
+   <BOUNDS type="Box" left="1020" top="1095" width="2970" height="705">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|Who am I?|">
    </PIN>
@@ -83,9 +83,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="6">
-   <BOUNDS type="Node" left="1170" top="6375" width="100" height="100">
+   <BOUNDS type="Node" left="1035" top="3030" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1170" top="6375" width="3765" height="615">
+   <BOUNDS type="Box" left="1035" top="3030" width="3765" height="615">
    </BOUNDS>
    <PIN pinname="String Type" slicecount="1" values="URL">
    </PIN>
@@ -97,9 +97,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="8">
-   <BOUNDS type="Node" left="1050" top="7815" width="2550" height="270">
+   <BOUNDS type="Node" left="765" top="7590" width="2550" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1050" top="7815" width="9135" height="705">
+   <BOUNDS type="Box" left="765" top="7590" width="9135" height="705">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|Where to find the workshop material?|">
    </PIN>
@@ -113,9 +113,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="7">
-   <BOUNDS type="Node" left="1185" top="8790" width="100" height="100">
+   <BOUNDS type="Node" left="900" top="8565" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1185" top="8790" width="9435" height="645">
+   <BOUNDS type="Box" left="900" top="8565" width="9435" height="645">
    </BOUNDS>
    <PIN pinname="String Type" slicecount="1" values="URL">
    </PIN>
@@ -143,9 +143,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="10">
-   <BOUNDS type="Node" left="1185" top="5340" width="100" height="100">
+   <BOUNDS type="Node" left="1050" top="1995" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1185" top="5340" width="7770" height="540">
+   <BOUNDS type="Box" left="1050" top="1995" width="7770" height="540">
    </BOUNDS>
    <PIN pinname="String Type" slicecount="1" values="URL">
    </PIN>
