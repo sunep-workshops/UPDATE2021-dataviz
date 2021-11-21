@@ -1,4 +1,5 @@
 # Data Driven AudioVisuals
+A workshop where we examine how we can use arbitrary data for artistic purposes..
 ## Description
 In October 2019 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*.
 
