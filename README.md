@@ -1,7 +1,7 @@
 # Data Driven AudioVisuals
 A workshop where we examine how we can use arbitrary data for artistic purposes..
 ## Description
-In October 2019 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*.
+In October 2018 I was diagnosedwith *Acute Lymphatic Leukemia (B-ALL)*.
 
 This resulted in a more than 2 year long treatment with daily chemotherapy most of the time. Determined to not let all this suffering have no creative outcome, I needed to find a way to use this for something good so it was not all suffering and nausea.
 I am now cured, but more tests are being taken at lower frequency for some years to come to monitor me.
