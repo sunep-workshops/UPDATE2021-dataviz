@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="D:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p" systemname="Remember" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p">
-   <BOUNDS type="Window" left="9510" top="2985" width="10650" height="3540">
+   <PATCH nodename="D:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p" systemname="Remember" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Remember.v4p" scrollx="0" scrolly="360">
+   <BOUNDS type="Window" left="1215" top="555" width="10650" height="10530">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -154,6 +154,34 @@
    <PIN pinname="Size" slicecount="1" values="14">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="|I Make Noisy Video Into Noisy Audio|">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="11">
+   <BOUNDS type="Node" left="4845" top="3480" width="2085" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4845" top="3480" width="2085" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Now this will be interesting|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="12">
+   <BOUNDS type="Node" left="4605" top="3795" width="5955" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4605" top="3795" width="4680" height="645">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|What you are now hearing is data from a Buoy that was in Daugava some years ago. it was from september to october.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
    </PATCH>
