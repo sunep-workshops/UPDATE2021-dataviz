@@ -33,9 +33,9 @@
    </PIN>
    </NODE>
    <NODE systemname="Box (DX11.Geometry)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Box (DX11.Geometry)" componentmode="Hidden" id="4">
-   <BOUNDS type="Node" left="23175" top="6270" width="100" height="100">
+   <BOUNDS type="Node" left="22725" top="6285" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="23175" top="6270" width="3000" height="3000">
+   <BOUNDS type="Box" left="22725" top="6285" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Geometry Out" visible="1">
    </PIN>
@@ -49,7 +49,7 @@
    </PIN>
    <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Color" visible="1">
+   <PIN pinname="Color" visible="1" slicecount="60" values="|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|">
    </PIN>
    <PIN pinname="Render State" visible="1">
    </PIN>
@@ -122,22 +122,6 @@
    </LINK>
    <LINK srcnodeid="11" srcpinname="Output" dstnodeid="13" dstpinname="Z">
    </LINK>
-   <NODE systemname="HSV (Color Join)" nodename="HSV (Color Join)" componentmode="Hidden" id="14">
-   <BOUNDS type="Node" left="24540" top="6900" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   <PIN pinname="Saturation" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Hue" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Value" visible="1" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Alpha" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="14" srcpinname="Output" dstnodeid="5" dstpinname="Color">
-   </LINK>
    <NODE systemname="CurrentTime (Astronomy)" nodename="CurrentTime (Astronomy)" componentmode="Hidden" id="15">
    <BOUNDS type="Node" left="25485" top="2790" width="100" height="100">
    </BOUNDS>
@@ -171,10 +155,6 @@
    <LINK srcnodeid="16" srcpinname="Second" dstnodeid="17" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="17" dstpinname="Spread Count">
-   </LINK>
-   <LINK srcnodeid="17" srcpinname="Output" dstnodeid="14" dstpinname="Alpha">
-   </LINK>
-   <LINK srcnodeid="17" srcpinname="Output" dstnodeid="14" dstpinname="Value">
    </LINK>
    <NODE systemname="Vector (2d Join)" nodename="Vector (2d Join)" componentmode="Hidden" id="19">
    <BOUNDS type="Node" left="26490" top="4650" width="100" height="100">
@@ -491,7 +471,7 @@
    <LINK srcnodeid="47" srcpinname="Output" dstnodeid="37" dstpinname="Color">
    </LINK>
    <NODE systemname="Scale (Transform)" nodename="Scale (Transform)" componentmode="Hidden" id="8">
-   <BOUNDS type="Node" left="23370" top="6930" width="100" height="100">
+   <BOUNDS type="Node" left="23400" top="6555" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
@@ -506,14 +486,12 @@
    <PIN pinname="Z" slicecount="1" values="0.08">
    </PIN>
    </NODE>
-   <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="5" dstpinname="Transform In">
-   </LINK>
    <LINK srcnodeid="10" srcpinname="Transform Out" dstnodeid="8" dstpinname="Transform In">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="50">
-   <BOUNDS type="Box" left="23565" top="6525" width="795" height="240">
+   <BOUNDS type="Box" left="23595" top="6150" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="23565" top="6525" width="0" height="0">
+   <BOUNDS type="Node" left="23595" top="6150" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.03">
    </PIN>
@@ -684,4 +662,32 @@
    <PIN pinname="Descriptive Name" slicecount="1" values="|Fixed Sys Font|">
    </PIN>
    </NODE>
+   <NODE systemname="UniformScale (Transform)" nodename="UniformScale (Transform)" componentmode="Hidden" id="64">
+   <BOUNDS type="Node" left="23370" top="6915" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform In" visible="1">
+   </PIN>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="XYZ" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="64" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="64" srcpinname="Transform Out" dstnodeid="5" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="17" srcpinname="Output" dstnodeid="64" dstpinname="XYZ">
+   </LINK>
+   <NODE systemname="HSV (Color Join)" nodename="HSV (Color Join)" componentmode="Hidden" id="65">
+   <BOUNDS type="Node" left="24570" top="6870" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Alpha" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Hue" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Saturation" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="65" srcpinname="Output" dstnodeid="5" dstpinname="Color">
+   </LINK>
    </PATCH>
