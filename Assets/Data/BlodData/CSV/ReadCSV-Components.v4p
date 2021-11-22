@@ -1,0 +1,13 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
+   <PATCH nodename="D:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Assets\Data\BlodData\CSV\ReadCSV-Components.v4p" systemname="ReadCSV-Components" filename="D:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Assets\Data\BlodData\CSV\ReadCSV-Components.v4p">
+   <BOUNDS type="Window" left="9900" top="3600" width="9000" height="9000">
+   </BOUNDS>
+   <NODE systemname="Reader (String)" filename="%VVVV%\lib\nodes\modules\String\Reader (String).v4p" nodename="Reader (String)" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="2220" top="2340" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <PACK Name="dx11" Version="1.3.1">
+   </PACK>
+   <PACK Name="addonpack" Version="42.0.0">
+   </PACK>
+   </PATCH>
