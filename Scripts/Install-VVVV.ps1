@@ -9,10 +9,6 @@ Write-Host "--------------------------`r`n"
 Invoke-WebRequest "https://vvvv.org/sites/all/modules/general/pubdlcnt/pubdlcnt.php?file=https://vvvv.org/sites/default/files/vvvv_beta_42_x64_setup.exe&nid=1" -OutFile c:\vvvv\vvvv_beta_42_x64_setup.exe | Out-Null
 Write-Host "Launching vvvv installer`r`n"
 c:\vvvv\vvvv_beta_42_x64_setup.exe /silent | Out-Null
-Write-Host "Clearing args.txt`r`n"
-Write-Host "--------------------------`r`n"
-Remove-Item c:\vvvv\vvvv_beta_42_x64\args.txt
-New-Item c:\vvvv\vvvv_beta_42_x64\args.txt
 Write-Host "Deleting setup file`r`n"
 Write-Host "--------------------------`r`n"
 Remove-Item C:\vvvv\vvvv_beta_42_x64_setup.exe
