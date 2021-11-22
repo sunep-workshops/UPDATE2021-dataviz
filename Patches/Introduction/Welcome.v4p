@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
    <PATCH nodename="D:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Welcome.v4p" systemname="Welcome" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\Introduction\Welcome.v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="1425" top="1230" width="12855" height="13995">
+   <BOUNDS type="Window" left="1425" top="1230" width="12600" height="13095">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -455,7 +455,7 @@
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="XYZ" slicecount="1" values="0.49">
+   <PIN pinname="XYZ" slicecount="1" values="0.82">
    </PIN>
    </NODE>
    <LINK srcnodeid="43" srcpinname="Transform Out" dstnodeid="37" dstpinname="Transform In">
