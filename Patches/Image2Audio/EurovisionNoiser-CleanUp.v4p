@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\ModuleretGrandPrix\EurovisionNoiser-CleanUp.v4p" systemname="EurovisionNoiser-CleanUp" filename="C:\Users\sunep\Documents\Dropbox\_vvvv_patches\___Work\2016\ModuleretGrandPrix\vvvv\EurovisionNoiser-CleanUp.v4p" scrollx="555" scrolly="-360">
-   <BOUNDS type="Window" left="210" top="154" width="12460" height="13125">
+   <PATCH nodename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\ModuleretGrandPrix\EurovisionNoiser-CleanUp.v4p" systemname="EurovisionNoiser-CleanUp" filename="C:\Users\sunep\Documents\Dropbox\_vvvv_patches\___Work\2016\ModuleretGrandPrix\vvvv\EurovisionNoiser-CleanUp.v4p" scrollx="270" scrolly="0">
+   <BOUNDS type="Window" left="210" top="150" width="12450" height="13635">
    </BOUNDS>
    <NODE systemname="Quad (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Quad (DX11.Layer)" componentmode="Hidden" id="2">
    <BOUNDS type="Node" left="1609" top="10325" width="100" height="100">
@@ -25,7 +25,7 @@
    <PACK Name="addonpack" Version="42.0.0">
    </PACK>
    <NODE systemname="Pipet (DX11.Texture 2d)" filename="%VVVV%\packs\dx11\nodes\modules\Pipet\Pipet (DX11.Texture 2d).v4p" nodename="Pipet (DX11.Texture 2d)" componentmode="Hidden" id="6">
-   <BOUNDS type="Node" left="6670" top="6566" width="100" height="100">
+   <BOUNDS type="Node" left="6175" top="6671" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Texture" visible="1" slicecount="1" values="||">
    </PIN>
@@ -35,7 +35,7 @@
    </PIN>
    </NODE>
    <NODE systemname="ApplyTransform (Transform Vector)" nodename="ApplyTransform (Transform Vector)" componentmode="Hidden" id="14">
-   <BOUNDS type="Node" left="6789" top="5712" width="100" height="100">
+   <BOUNDS type="Node" left="6324" top="5817" width="100" height="100">
    </BOUNDS>
    <PIN pinname="XYZ UnTransformed" visible="1" slicecount="3" values="0,0,0">
    </PIN>
@@ -103,7 +103,7 @@
    </PIN>
    </NODE>
    <NODE systemname="xyZ (3d XY)" nodename="xyZ (3d XY)" componentmode="Hidden" id="27">
-   <BOUNDS type="Node" left="6201" top="4863" width="100" height="100">
+   <BOUNDS type="Node" left="6231" top="4848" width="100" height="100">
    </BOUNDS>
    <PIN pinname="XY" visible="1">
    </PIN>
@@ -113,7 +113,7 @@
    <LINK srcnodeid="26" srcpinname="OutputXY" dstnodeid="27" dstpinname="XY">
    </LINK>
    <NODE systemname="Translate (Transform Vector)" nodename="Translate (Transform Vector)" componentmode="Hidden" id="19">
-   <BOUNDS type="Node" left="5508" top="5241" width="100" height="100">
+   <BOUNDS type="Node" left="5538" top="5226" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
@@ -129,15 +129,15 @@
    <LINK srcnodeid="27" srcpinname="XYZ" dstnodeid="19" dstpinname="XYZ">
    </LINK>
    <LINK srcnodeid="19" srcpinname="Transform Out" dstnodeid="22" dstpinname="Transform In" linkstyle="Bezier">
-   <LINKPOINT x="5825" y="7706">
+   <LINKPOINT x="5845" y="7696">
    </LINKPOINT>
-   <LINKPOINT x="2783" y="6992">
+   <LINKPOINT x="2793" y="6987">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="3" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform">
    </LINK>
    <NODE systemname="xy (2d)" nodename="xy (2d)" componentmode="Hidden" id="35">
-   <BOUNDS type="Node" left="6803" top="6076" width="100" height="100">
+   <BOUNDS type="Node" left="6338" top="6181" width="100" height="100">
    </BOUNDS>
    <PIN pinname="XYZ" visible="1">
    </PIN>
@@ -272,20 +272,6 @@
    </NODE>
    <LINK srcnodeid="39" srcpinname="Audio Out" dstnodeid="48" dstpinname="Input">
    </LINK>
-   <NODE systemname="Filter (VAudio Filter)" filename="%VVVV%\packs\VVVV.Audio\nodes\plugins\VVVV.Audio.Nodes.dll" nodename="Filter (VAudio Filter)" componentmode="Hidden" id="49">
-   <BOUNDS type="Node" left="7328" top="10654" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1">
-   </PIN>
-   <PIN pinname="Filter Type" slicecount="1" values="HighPass">
-   </PIN>
-   <PIN pinname="Cutoff Offset" slicecount="1" values="30">
-   </PIN>
-   <PIN pinname="Audio Out" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="48" srcpinname="Output" dstnodeid="49" dstpinname="Input">
-   </LINK>
    <NODE systemname="Map (Value)" nodename="Map (Value)" componentmode="Hidden" id="50">
    <BOUNDS type="Node" left="7293" top="9464" width="100" height="100">
    </BOUNDS>
@@ -299,9 +285,9 @@
    <LINK srcnodeid="50" srcpinname="Output" dstnodeid="39" dstpinname="Table">
    </LINK>
    <NODE systemname="Renderer (DX11)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Renderer (DX11)" componentmode="InAWindow" id="51">
-   <BOUNDS type="Node" left="2392" top="12206" width="100" height="100">
+   <BOUNDS type="Node" left="2332" top="12311" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2392" top="12206" width="2800" height="2100">
+   <BOUNDS type="Box" left="2332" top="12311" width="2800" height="2100">
    </BOUNDS>
    <BOUNDS type="Window" left="12525" top="240" width="12240" height="12585">
    </BOUNDS>
@@ -315,7 +301,7 @@
    <LINK srcnodeid="20" srcpinname="Layer Out" dstnodeid="51" dstpinname="Layers">
    </LINK>
    <NODE systemname="HSV (Color Split)" nodename="HSV (Color Split)" componentmode="Hidden" id="61">
-   <BOUNDS type="Node" left="4311" top="7882" width="100" height="100">
+   <BOUNDS type="Node" left="3996" top="7882" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="|0.99951,0.99951,0.99951,0.99951|">
    </PIN>
@@ -345,7 +331,7 @@
    <LINK srcnodeid="62" srcpinname="Output" dstnodeid="21" dstpinname="Color">
    </LINK>
    <NODE systemname="Blend (DX11.RenderState)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Blend (DX11.RenderState)" componentmode="Hidden" id="63">
-   <BOUNDS type="Node" left="2225" top="7791" width="100" height="100">
+   <BOUNDS type="Node" left="2330" top="7791" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Mode" slicecount="1" values="Add">
    </PIN>
@@ -355,12 +341,10 @@
    <LINK srcnodeid="63" srcpinname="Render State" dstnodeid="21" dstpinname="Render State">
    </LINK>
    <LINK srcnodeid="6" srcpinname="Color" dstnodeid="61" dstpinname="Input" linkstyle="Bezier">
-   <LINKPOINT x="6670" y="7347">
+   <LINKPOINT x="6235" y="7417">
    </LINKPOINT>
-   <LINKPOINT x="4367" y="7347">
+   <LINKPOINT x="3992" y="7382">
    </LINKPOINT>
-   </LINK>
-   <LINK srcnodeid="49" srcpinname="Audio Out" dstnodeid="42" dstpinname="Input">
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.8">
    </PACK>
@@ -395,9 +379,9 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="6" srcpinname="Color" dstnodeid="74" dstpinname="Input" linkstyle="Bezier">
-   <LINKPOINT x="6705" y="7728">
+   <LINKPOINT x="6375" y="7798">
    </LINKPOINT>
-   <LINKPOINT x="7237" y="7728">
+   <LINKPOINT x="7072" y="7763">
    </LINKPOINT>
    </LINK>
    <NODE systemname="Cons (Spreads)" nodename="Cons (Spreads)" componentmode="Hidden" id="75" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll">
@@ -431,7 +415,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="9673" top="9338" width="2331" height="672">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Select your ASIO audio interface there. If you don&apos;t have one, use ASIO4all|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Select your ASIO audio interface there. If you don&apos;t have one, use the FLstudio ASIO driver|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -441,17 +425,17 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="6" srcpinname="Color" dstnodeid="43" dstpinname="Data" linkstyle="Bezier">
-   <LINKPOINT x="6684" y="7903">
+   <LINKPOINT x="6354" y="7973">
    </LINKPOINT>
-   <LINKPOINT x="6243" y="7903">
+   <LINKPOINT x="6078" y="7938">
    </LINKPOINT>
    </LINK>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
    <NODE systemname="FileTexture (DX11 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FileTexture (DX11 2d)" componentmode="Hidden" id="81">
-   <BOUNDS type="Node" left="1800" top="4410" width="100" height="100">
+   <BOUNDS type="Node" left="1980" top="3375" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1800" top="4410" width="3000" height="3000">
+   <BOUNDS type="Box" left="1980" top="3375" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Filename" visible="1">
    </PIN>
@@ -459,9 +443,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="82">
-   <BOUNDS type="Box" left="2130" top="3795" width="795" height="240">
+   <BOUNDS type="Box" left="1980" top="2940" width="2565" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2130" top="3795" width="0" height="0">
+   <BOUNDS type="Node" left="1980" top="2940" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" visible="1" values="SabrineDurling-Jones-Photo.jpg">
    </PIN>
@@ -479,16 +463,6 @@
    <LINK srcnodeid="81" srcpinname="Texture Out" dstnodeid="2" dstpinname="Texture">
    </LINK>
    <LINK srcnodeid="81" srcpinname="Texture Out" dstnodeid="6" dstpinname="Texture">
-   </LINK>
-   <NODE systemname="AspectRatio (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="AspectRatio (DX11.Layer)" componentmode="Hidden" id="83">
-   <BOUNDS type="Node" left="1635" top="11040" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1635" top="11040" width="3000" height="3000">
-   </BOUNDS>
-   <PIN pinname="Layer In" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="83" dstpinname="Layer In">
    </LINK>
    <NODE systemname="LFO (Animation)" nodename="LFO (Animation)" componentmode="Hidden" id="84">
    <BOUNDS type="Node" left="6420" top="2235" width="100" height="100">
@@ -684,8 +658,6 @@
    </NODE>
    <LINK srcnodeid="98" srcpinname="Output" dstnodeid="44" dstpinname="Color">
    </LINK>
-   <LINK srcnodeid="21" srcpinname="Layer" dstnodeid="20" dstpinname="Layer 2">
-   </LINK>
    <NODE systemname="Blend (DX11.RenderState)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Blend (DX11.RenderState)" componentmode="Hidden" id="99">
    <BOUNDS type="Node" left="4235" top="9591" width="100" height="100">
    </BOUNDS>
@@ -707,5 +679,27 @@
    <LINK srcnodeid="91" srcpinname="Y Output Value" dstnodeid="100" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="100" srcpinname="Output" dstnodeid="92" dstpinname="Pause">
+   </LINK>
+   <LINK srcnodeid="21" srcpinname="Layer" dstnodeid="20" dstpinname="Layer 2">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="101">
+   <BOUNDS type="Box" left="8415" top="4020" width="1965" height="1125">
+   </BOUNDS>
+   <BOUNDS type="Node" left="8415" top="4020" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Columns" slicecount="1" values="2">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="85" srcpinname="XY" dstnodeid="101" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="48" srcpinname="Output" dstnodeid="42" dstpinname="Input">
    </LINK>
    </PATCH>
