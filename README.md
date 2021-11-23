@@ -33,7 +33,7 @@ This workshop will also be an instroduction to vvvv_beta.
 - If you have some data you would like to explore, bring it to the workshop.
 
 ## Alternatives
-See the [alternatves to vvvv](Misc/Alternatives.md) page
+See the [alternatives to vvvv](Misc/Alternatives.md) page
 
 ## Who am I?
 Sune Petersen (He/Him) a a digital artist creating audiovisual performances and installations.
