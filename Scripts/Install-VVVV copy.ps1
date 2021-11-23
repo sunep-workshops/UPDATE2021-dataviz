@@ -44,3 +44,31 @@ Expand-Archive -Path C:\vvvv\vvvv_beta_42_x64\vvvv-packs-dx11-1.3.1.x64.zip -Des
 Write-Host "Deleting DX11 install files`r`n"
 Write-Host "--------------------------`r`n"
 Remove-Item C:\vvvv\vvvv_beta_42_x64\vvvv-packs-dx11-1.3.1.x64.zip
+
+#-------------------------
+#------ Happy FX ---------
+#-------------------------
+
+Write-Host "Downloading Happy FX`r`n"
+Write-Host "--------------------------`r`n"
+Invoke-WebRequest "https://vvvv.org/sites/all/modules/general/pubdlcnt/pubdlcnt.php?file=https://vvvv.org/sites/default/files/uploads/Happy.fxh__1.zip&nid=248066" -outfile C:\vvvv\vvvv_beta_42_x64\vvvv-packs-dx11-1.3.1.x64.zip | Out-Null
+Write-Host "Expanding Happy FX`r`n"
+Write-Host "--------------------------`r`n"
+Expand-Archive -Path C:\vvvv\vvvv_beta_42_x64\Happy.fxh__1.zip -DestinationPath C:\vvvv\vvvv_beta_42_x64\packs\ | Out-Null
+Write-Host "Deleting Happy FX install files`r`n"
+Write-Host "--------------------------`r`n"
+Remove-Item C:\vvvv\vvvv_beta_42_x64\Happy.fxh__1.zip
+
+#-------------------------
+#------ Instance Noodles -
+#-------------------------
+
+Write-Host "Downloading instance Noodles`r`n"
+Write-Host "--------------------------`r`n"
+Invoke-WebRequest "https://vvvv.org/sites/all/modules/general/pubdlcnt/pubdlcnt.php?file=https://vvvv.org/sites/default/files/uploads/InstanceNoodles_4.zip&nid=204961" -outfile C:\vvvv\vvvv_beta_42_x64\vvvv-packs-dx11-1.3.1.x64.zip | Out-Null
+Write-Host "Expanding Instance Noodles`r`n"
+Write-Host "--------------------------`r`n"
+Expand-Archive -Path C:\vvvv\vvvv_beta_42_x64\InstanceNoodles_4.zip -DestinationPath C:\vvvv\vvvv_beta_42_x64\packs\ | Out-Null
+Write-Host "Deleting Instance Noodles install files`r`n"
+Write-Host "--------------------------`r`n"
+Remove-Item C:\vvvv\vvvv_beta_42_x64\InstanceNoodles_4.zip
