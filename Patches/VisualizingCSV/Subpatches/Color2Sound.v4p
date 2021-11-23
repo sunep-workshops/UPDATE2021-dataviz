@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
    <PATCH nodename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\VisualizingCSV\Subpatches\Color2Sound.v4p" systemname="Color2Sound" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Patches\VisualizingCSV\Subpatches\Color2Sound.v4p">
-   <BOUNDS type="Window" left="8040" top="3375" width="9000" height="9000">
+   <BOUNDS type="Window" left="15720" top="5625" width="9000" height="9000">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -41,7 +41,7 @@
    </PIN>
    </NODE>
    <NODE systemname="AudioOut (VAudio)" nodename="AudioOut (VAudio)" componentmode="Hidden" id="6" filename="%VVVV%\packs\VVVV.Audio\nodes\plugins\VVVV.Audio.Nodes.dll">
-   <BOUNDS type="Node" left="2327" top="5310" width="100" height="100">
+   <BOUNDS type="Node" left="2297" top="6630" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -140,8 +140,6 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <LINK srcnodeid="5" srcpinname="Output" dstnodeid="6" dstpinname="Input">
-   </LINK>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="10">
    <BOUNDS type="Box" left="2310" top="1815" width="2250" height="480">
    </BOUNDS>
@@ -155,9 +153,9 @@
    <LINK srcnodeid="10" srcpinname="Color Output" dstnodeid="2" dstpinname="Input">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="11">
-   <BOUNDS type="Box" left="5775" top="2550" width="795" height="240">
+   <BOUNDS type="Box" left="5580" top="2505" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="5775" top="2550" width="0" height="0">
+   <BOUNDS type="Node" left="5580" top="2505" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="30">
    </PIN>
@@ -169,5 +167,55 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="11" srcpinname="Y Output Value" dstnodeid="7" dstpinname="Frequency">
+   </LINK>
+   <NODE systemname="Filter (VAudio Filter)" filename="%VVVV%\packs\VVVV.Audio\nodes\plugins\VVVV.Audio.Nodes.dll" nodename="Filter (VAudio Filter)" componentmode="Hidden" id="15">
+   <BOUNDS type="Node" left="2370" top="5970" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2370" top="5970" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Audio Out" visible="1">
+   </PIN>
+   <PIN pinname="Cutoff Offset" visible="1">
+   </PIN>
+   <PIN pinname="Resonance Offset" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="5" srcpinname="Output" dstnodeid="15" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="15" srcpinname="Audio Out" dstnodeid="6" dstpinname="Input">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="16">
+   <BOUNDS type="Box" left="6660" top="4890" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6660" top="4890" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="2000">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Cutoff Offset|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="16" srcpinname="Y Output Value" dstnodeid="15" dstpinname="Cutoff Offset">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="17">
+   <BOUNDS type="Box" left="7695" top="4995" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="7695" top="4995" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.59">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Resonance Offset|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="17" srcpinname="Y Output Value" dstnodeid="15" dstpinname="Resonance Offset">
    </LINK>
    </PATCH>
