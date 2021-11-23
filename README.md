@@ -31,12 +31,14 @@ This workshop will also be an instroduction to vvvv_beta.
 - 3 button mouse (recommended) - Use space Space + Right Click for middle click if you for some reason don't have a 3 button mouse
 - headphones if you want to work with sound
 - If you have some data you would like to explore, bring it to the workshop.
+
+## Alternatives
+See the [alternatves to vvvv](Misc/Alternatives.md) page
+
 ## Who am I?
 Sune Petersen (He/Him) a a digital artist creating audiovisual performances and installations.
 
 ### Selected highlights:
-
-
 - 2018 Deuterium AV performance, Cairotronica. Cimatheque, Cairo, Egypt
 - 2018 [Ghostscanning #2](https://sunep.net/ghostscanning-2) installation, Cairotronica, Egypt
 - 2017 QUAD AV set w. Kopehagen Laptop Orchestra, Define Festival, Sønderborg Denmark
