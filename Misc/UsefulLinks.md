@@ -7,6 +7,7 @@ Use the following links to join the vvvv community
 
   - [the vvvv forum](https://vvvv.org/)
   - join the [chat](https://vvvv.org/chat)
+  - [NODE20 workshop bundle](https://thenodeinstitute.org/courses/node20-vvvv-workshop-bundle/)
 
 ## VL nugets
 

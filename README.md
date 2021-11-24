@@ -32,7 +32,7 @@ This workshop will also be an instroduction to vvvv_beta.
 - headphones if you want to work with sound
 - If you have some data you would like to explore, bring it to the workshop.
 
-## [Useful Links](Misc/Alternatives.md) page
+## [Useful Links](Misc/UsefulLinks.md)
 
 ## Who am I?
 Sune Petersen (He/Him) a a digital artist creating audiovisual performances and installations.
