@@ -32,7 +32,7 @@ This workshop will also be an instroduction to vvvv_beta.
 - headphones if you want to work with sound
 - If you have some data you would like to explore, bring it to the workshop.
 
-## Alternatives
+## Useful Links
 See the [alternatives to vvvv](Misc/Alternatives.md) page
 
 ## Who am I?
