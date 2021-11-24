@@ -1,6 +1,13 @@
 # Links
 Here is at collection of links that are relevant for the workshop
 
+## Community Links
+
+Use the following links to join the vvvv community
+
+  - [the vvvv forum](https://vvvv.org/)
+  - join the [chat](https://vvvv.org/chat)
+
 ## vvvv alternatives
 It was requested to have some examples of alternatives to vvvv.
 There is a myriad of different tools with slightly different focus.
