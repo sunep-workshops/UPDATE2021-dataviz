@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Participants\Janis\KrakenJSON-reader.v4p" scrollx="0" scrolly="0" systemname="KrakenJSON-reader" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Participants\Janis\KrakenJSON-reader.v4p">
-   <BOUNDS type="Window" left="-705" top="0" width="14355" height="13365">
+   <PATCH nodename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Participants\Janis\KrakenJSON-reader.v4p" scrollx="0" scrolly="-360" systemname="KrakenJSON-reader" filename="C:\Users\sunep\Dropbox\___Work\workshops\UPDATE2021-dataviz\Participants\Janis\KrakenJSON-reader.v4p">
+   <BOUNDS type="Window" left="-705" top="0" width="13305" height="13410">
    </BOUNDS>
    <NODE systemname="HTTPGet (Network String)" filename="%VVVV%\lib\nugets\VL.CoreLib.VVVV.42.0.0\vvvv\nodes\modules\HTTPGet (Network String).v4p" nodename="HTTPGet (Network String)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2925" top="2205" width="100" height="100">
@@ -67,9 +67,9 @@
    <LINK srcnodeid="0" srcpinname="Body" dstnodeid="4" dstpinname="JSON">
    </LINK>
    <NODE systemname="GetElements (XElement ByName)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="GetElements (XElement ByName)" componentmode="Hidden" id="7">
-   <BOUNDS type="Node" left="10350" top="4080" width="100" height="100">
+   <BOUNDS type="Node" left="10335" top="3615" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="10350" top="4080" width="3000" height="3000">
+   <BOUNDS type="Box" left="10335" top="3615" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Name" visible="1">
    </PIN>
@@ -79,9 +79,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="8" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="10500" top="3540" width="795" height="240">
+   <BOUNDS type="Box" left="10485" top="3075" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="10500" top="3540" width="0" height="0">
+   <BOUNDS type="Node" left="10485" top="3075" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" visible="1" values="result">
    </PIN>
@@ -99,9 +99,9 @@
    <LINK srcnodeid="4" srcpinname="Element" dstnodeid="7" dstpinname="Element">
    </LINK>
    <NODE systemname="GetElements (XElement ByName)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="GetElements (XElement ByName)" componentmode="Hidden" id="10">
-   <BOUNDS type="Node" left="10350" top="4905" width="100" height="100">
+   <BOUNDS type="Node" left="10335" top="4440" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="10350" top="4905" width="3000" height="3000">
+   <BOUNDS type="Box" left="10335" top="4440" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Name" visible="1" slicecount="1" values="MyChildTag">
    </PIN>
@@ -113,9 +113,9 @@
    <LINK srcnodeid="7" srcpinname="Elements" dstnodeid="10" dstpinname="Element">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="11" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="10845" top="4560" width="795" height="240">
+   <BOUNDS type="Box" left="10830" top="4095" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="10845" top="4560" width="0" height="0">
+   <BOUNDS type="Node" left="10830" top="4095" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" visible="1" values="XTZEUR">
    </PIN>
@@ -129,9 +129,9 @@
    <LINK srcnodeid="11" srcpinname="Output String" dstnodeid="10" dstpinname="Name">
    </LINK>
    <NODE systemname="GetElements (XElement ByName)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="GetElements (XElement ByName)" componentmode="Hidden" id="13">
-   <BOUNDS type="Node" left="10365" top="5625" width="100" height="100">
+   <BOUNDS type="Node" left="10350" top="5160" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="10365" top="5625" width="3000" height="3000">
+   <BOUNDS type="Box" left="10350" top="5160" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Name" visible="1" slicecount="1" values="MyChildTag">
    </PIN>
@@ -141,9 +141,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="12" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="10890" top="5235" width="795" height="240">
+   <BOUNDS type="Box" left="10875" top="4770" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="10890" top="5235" width="0" height="0">
+   <BOUNDS type="Node" left="10875" top="4770" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" visible="1" values="item">
    </PIN>
@@ -177,7 +177,7 @@
    </PIN>
    </NODE>
    <NODE systemname="AsString (Object)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="AsString (Object)" componentmode="Hidden" id="20">
-   <BOUNDS type="Node" left="10365" top="6120" width="100" height="100">
+   <BOUNDS type="Node" left="10350" top="5655" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Object" visible="1" slicecount="1" values="||">
    </PIN>
@@ -625,9 +625,9 @@
    <LINK srcnodeid="56" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="57">
-   <BOUNDS type="Box" left="11895" top="6315" width="825" height="2085">
+   <BOUNDS type="Box" left="10890" top="6660" width="765" height="1545">
    </BOUNDS>
-   <BOUNDS type="Node" left="11895" top="6315" width="0" height="0">
+   <BOUNDS type="Node" left="10890" top="6660" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="6" visible="1" values="0.1,0.117,0.012,0.0885,0.0743,0.0001">
    </PIN>
@@ -643,9 +643,9 @@
    <LINK srcnodeid="57" srcpinname="Y Output Value" dstnodeid="56" dstpinname="Y">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="58">
-   <BOUNDS type="Box" left="8805" top="7200" width="795" height="240">
+   <BOUNDS type="Box" left="10050" top="7590" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="8805" top="7200" width="0" height="0">
+   <BOUNDS type="Node" left="10050" top="7590" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="2">
    </PIN>
@@ -693,7 +693,7 @@
    <LINK srcnodeid="59" srcpinname="Output" dstnodeid="52" dstpinname="Y">
    </LINK>
    <NODE systemname="Translate (Transform)" nodename="Translate (Transform)" componentmode="Hidden" id="60">
-   <BOUNDS type="Node" left="9840" top="7905" width="100" height="100">
+   <BOUNDS type="Node" left="9840" top="7275" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
