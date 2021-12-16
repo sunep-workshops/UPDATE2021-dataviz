@@ -1,1 +1,1 @@
-Powershell.exe -executionpolicy remotesigned -File  Install-VVVV.ps1
+Powershell.exe -executionpolicy remotesigned -File  Install-VVVV-DX11-VAudio-HappyFX-InstanceNoodles.ps1
